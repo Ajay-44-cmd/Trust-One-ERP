@@ -1,0 +1,71 @@
+# ============================================
+# Trust One ERP — .gitignore
+# ============================================
+
+# ----- Python / Backend -----
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+
+# ----- Environment & Secrets -----
+.env
+.env.local
+.env.production
+.env.development
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ----- Database Files (local dev) -----
+*.db
+*.sqlite3
+college_erp_dev.db
+backend/*.db
+backend/*.sqlite3
+
+# ----- Node / Frontend -----
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/build/
+dist/
+build/
+
+# ----- Archive Files -----
+*.zip
+*.tar.gz
+
+# ----- OS / IDE / System -----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ----- Scratch / Temporary Dev Scripts -----
+scratch/
+
+# ----- Uploads (user-generated content) -----
+uploads/
+
+# ----- Logs -----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----- Coverage / Test -----
+.coverage
+htmlcov/
+.pytest_cache/
