@@ -38,7 +38,7 @@
 ```bash
 # 1. Clone repo
 git clone https://github.com
-cd Tush-One-ERP
+cd Trust-One-ERP
 
 # 2. Run Backend
 cd backend
